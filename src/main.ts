@@ -1,4 +1,6 @@
-import { setupCounter } from './counter'
+import { stickyHeader } from './counter'
+
+window.addEventListener("scroll", () => stickyHeader())
 
 // const colors = {
 //     Red : "Red",
