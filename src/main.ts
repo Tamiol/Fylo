@@ -1,4 +1,4 @@
-// import { setupCounter } from './counter'
+import { setupCounter } from './counter'
 
 // const colors = {
 //     Red : "Red",
