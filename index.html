@@ -2,64 +2,116 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/png+xml" href="/favicon-32x32.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <script type="module" src="/src/main.ts"></script>
     <header>
       <div>
-      <h1><img src="images/logo.svg" alt="Fylo" loading="lazy"/></h1>
-      <nav>
-        <ul>
-          <li><a href="#">Features</a></li>
-          <li><a href="#">Team</a></li>
-          <li><a href="#">Sign In</a></li>
-        </ul>
-      </nav>
-    </div>
+        <h1><img src="images/logo.svg" alt="Fylo" /></h1>
+        <nav>
+          <ul>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Team</a></li>
+            <li><a href="#">Sign In</a></li>
+          </ul>
+        </nav>
+        <button class="hamburger">
+          <div class="bar"></div>
+        </button>
+      </div>
     </header>
+    <nav class="mobile-nav">
+      <ul>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Team</a></li>
+        <li><a href="#">Sign In</a></li>
+      </ul>
+    </nav>
     <section class="main">
       <div class="container_main">
-        <img src="images/illustration-intro.png" alt="" loading="lazy"/>
-        <h2>All your files in one secure location,<br>accessible anywhere.        </h2>
-        <p>Fylo stores all your most important files in one secure location.<br>Access them wherever 
-          you need, share and collaborate with friends family, and co-workers.</p>
+        <img src="images/illustration-intro.png" alt="" />
+        <h2>
+          All your files in one secure location,<br />accessible anywhere.
+        </h2>
+        <p>
+          Fylo stores all your most important files in one secure location.<br />Access
+          them wherever you need, share and collaborate with friends family, and
+          co-workers.
+        </p>
         <button class="blue_button" type="button">Get Started</button>
       </div>
-      <div>
-        <!-- <svg id="wave" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 310" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(24, 31, 42, 1)" offset="0%"></stop><stop stop-color="rgba(51, 158.1, 204, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,217L40,211.8C80,207,160,196,240,160.2C320,124,400,62,480,67.2C560,72,640,145,720,149.8C800,155,880,93,960,62C1040,31,1120,31,1200,46.5C1280,62,1360,93,1440,118.8C1520,145,1600,165,1680,160.2C1760,155,1840,124,1920,139.5C2000,155,2080,217,2160,227.3C2240,238,2320,196,2400,149.8C2480,103,2560,52,2640,41.3C2720,31,2800,62,2880,72.3C2960,83,3040,72,3120,82.7C3200,93,3280,124,3360,149.8C3440,176,3520,196,3600,201.5C3680,207,3760,196,3840,180.8C3920,165,4000,145,4080,129.2C4160,114,4240,103,4320,103.3C4400,103,4480,114,4560,144.7C4640,176,4720,227,4800,227.3C4880,227,4960,176,5040,134.3C5120,93,5200,62,5280,72.3C5360,83,5440,134,5520,165.3C5600,196,5680,207,5720,211.8L5760,217L5760,310L5720,310C5680,310,5600,310,5520,310C5440,310,5360,310,5280,310C5200,310,5120,310,5040,310C4960,310,4880,310,4800,310C4720,310,4640,310,4560,310C4480,310,4400,310,4320,310C4240,310,4160,310,4080,310C4000,310,3920,310,3840,310C3760,310,3680,310,3600,310C3520,310,3440,310,3360,310C3280,310,3200,310,3120,310C3040,310,2960,310,2880,310C2800,310,2720,310,2640,310C2560,310,2480,310,2400,310C2320,310,2240,310,2160,310C2080,310,2000,310,1920,310C1840,310,1760,310,1680,310C1600,310,1520,310,1440,310C1360,310,1280,310,1200,310C1120,310,1040,310,960,310C880,310,800,310,720,310C640,310,560,310,480,310C400,310,320,310,240,310C160,310,80,310,40,310L0,310Z"></path></svg>     -->
-        <svg id="wave" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 310" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(24, 31, 42, 1)" offset="0%"></stop><stop stop-color="rgba(24, 31, 42, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,217L40,211.8C80,207,160,196,240,160.2C320,124,400,62,480,67.2C560,72,640,145,720,149.8C800,155,880,93,960,62C1040,31,1120,31,1200,46.5C1280,62,1360,93,1440,118.8C1520,145,1600,165,1680,160.2C1760,155,1840,124,1920,139.5C2000,155,2080,217,2160,227.3C2240,238,2320,196,2400,149.8C2480,103,2560,52,2640,41.3C2720,31,2800,62,2880,72.3C2960,83,3040,72,3120,82.7C3200,93,3280,124,3360,149.8C3440,176,3520,196,3600,201.5C3680,207,3760,196,3840,180.8C3920,165,4000,145,4080,129.2C4160,114,4240,103,4320,103.3C4400,103,4480,114,4560,144.7C4640,176,4720,227,4800,227.3C4880,227,4960,176,5040,134.3C5120,93,5200,62,5280,72.3C5360,83,5440,134,5520,165.3C5600,196,5680,207,5720,211.8L5760,217L5760,310L5720,310C5680,310,5600,310,5520,310C5440,310,5360,310,5280,310C5200,310,5120,310,5040,310C4960,310,4880,310,4800,310C4720,310,4640,310,4560,310C4480,310,4400,310,4320,310C4240,310,4160,310,4080,310C4000,310,3920,310,3840,310C3760,310,3680,310,3600,310C3520,310,3440,310,3360,310C3280,310,3200,310,3120,310C3040,310,2960,310,2880,310C2800,310,2720,310,2640,310C2560,310,2480,310,2400,310C2320,310,2240,310,2160,310C2080,310,2000,310,1920,310C1840,310,1760,310,1680,310C1600,310,1520,310,1440,310C1360,310,1280,310,1200,310C1120,310,1040,310,960,310C880,310,800,310,720,310C640,310,560,310,480,310C400,310,320,310,240,310C160,310,80,310,40,310L0,310Z"></path></svg>      </div>
+      <div class="wave">
+        <svg
+          style="transform: rotate(0deg); transition: 0.3s"
+          viewBox="0 0 1440 310"
+          version="1.1"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <defs>
+            <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+              <stop stop-color="rgba(24, 31, 42, 1)" offset="0%"></stop>
+              <stop stop-color="rgba(24, 31, 42, 1)" offset="100%"></stop>
+            </linearGradient>
+          </defs>
+          <path
+            style="transform: translate(0, 0px); opacity: 1"
+            fill="url(#sw-gradient-0)"
+            d="M0,217L40,211.8C80,207,160,196,240,160.2C320,124,400,62,480,67.2C560,72,640,145,720,149.8C800,155,880,93,960,62C1040,31,1120,31,1200,46.5C1280,62,1360,93,1440,118.8C1520,145,1600,165,1680,160.2C1760,155,1840,124,1920,139.5C2000,155,2080,217,2160,227.3C2240,238,2320,196,2400,149.8C2480,103,2560,52,2640,41.3C2720,31,2800,62,2880,72.3C2960,83,3040,72,3120,82.7C3200,93,3280,124,3360,149.8C3440,176,3520,196,3600,201.5C3680,207,3760,196,3840,180.8C3920,165,4000,145,4080,129.2C4160,114,4240,103,4320,103.3C4400,103,4480,114,4560,144.7C4640,176,4720,227,4800,227.3C4880,227,4960,176,5040,134.3C5120,93,5200,62,5280,72.3C5360,83,5440,134,5520,165.3C5600,196,5680,207,5720,211.8L5760,217L5760,310L5720,310C5680,310,5600,310,5520,310C5440,310,5360,310,5280,310C5200,310,5120,310,5040,310C4960,310,4880,310,4800,310C4720,310,4640,310,4560,310C4480,310,4400,310,4320,310C4240,310,4160,310,4080,310C4000,310,3920,310,3840,310C3760,310,3680,310,3600,310C3520,310,3440,310,3360,310C3280,310,3200,310,3120,310C3040,310,2960,310,2880,310C2800,310,2720,310,2640,310C2560,310,2480,310,2400,310C2320,310,2240,310,2160,310C2080,310,2000,310,1920,310C1840,310,1760,310,1680,310C1600,310,1520,310,1440,310C1360,310,1280,310,1200,310C1120,310,1040,310,960,310C880,310,800,310,720,310C640,310,560,310,480,310C400,310,320,310,240,310C160,310,80,310,40,310L0,310Z"
+          ></path>
+        </svg>
+      </div>
     </section>
     <section>
       <div class="container">
         <ul class="box_icon">
           <li>
-            <img src="images/icon-access-anywhere.svg" alt="" loading="lazy"/>
+            <img src="images/icon-access-anywhere.svg" alt="" loading="lazy" />
             <h3>Access your files, anywhere</h3>
-            <p>The ability to use a smartphone, tablet, or computer to access your account means your files follow you everywhere.</p>
+            <p>
+              The ability to use a smartphone, tablet, or computer to access
+              your account means your files follow you everywhere.
+            </p>
           </li>
           <li>
-            <img src="images/icon-security.svg" alt="" loading="lazy"/>
-            <h3>  Security you can trust</h3>
-            <p>2-factor authentication and user-controlled encryption are just a couple of the security 
-              features we allow to help secure your files.</p>
+            <img src="images/icon-security.svg" alt="" loading="lazy" />
+            <h3>Security you can trust</h3>
+            <p>
+              2-factor authentication and user-controlled encryption are just a
+              couple of the security features we allow to help secure your
+              files.
+            </p>
           </li>
           <li>
-            <img src="images/icon-collaboration.svg" alt="" loading="lazy"/>
+            <img src="images/icon-collaboration.svg" alt="" loading="lazy" />
             <h3>Real-time collaboration</h3>
-            <p>Securely share files and folders with friends, family and colleagues for live collaboration. 
-              No email attachments required.</p>
+            <p>
+              Securely share files and folders with friends, family and
+              colleagues for live collaboration. No email attachments required.
+            </p>
           </li>
           <li>
-            <img src="images/icon-any-file.svg" alt="" loading="lazy"/>
+            <img src="images/icon-any-file.svg" alt="" loading="lazy" />
             <h3>Store any type of file</h3>
-            <p>Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all 
-              file types to be securely stored and shared.</p>
+            <p>
+              Whether you're sharing holidays photos or work documents, Fylo has
+              you covered allowing for all file types to be securely stored and
+              shared.
+            </p>
           </li>
         </ul>
       </div>
@@ -67,24 +119,161 @@
     <section class="section_productive">
       <div class="container box_flex">
         <div>
-          <img src="images/illustration-stay-productive.png" alt="" loading="lazy"/>
+          <img
+            src="images/illustration-stay-productive.png"
+            alt=""
+            loading="lazy"
+          />
         </div>
         <div>
-          <h2>Stay productive,<br>wherever you are</h2>
-          <p>Never let location be an issue when accessing your files. Fylo has you covered for all of your file 
-            storage needs.
-            <br><br>
-            Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required.
+          <h2>Stay productive,<br />wherever you are</h2>
+          <p>
+            Never let location be an issue when accessing your files. Fylo has
+            you covered for all of your file storage needs. <br /><br />
+            Securely share files and folders with friends, family and colleagues
+            for live collaboration. No email attachments required.
           </p>
           <a href="#">See how Fylo works</a>
         </div>
       </div>
     </section>
-    <section class="review_slider container">
+    <section class="review_slider">
       <div>
-        <img src="images/bg-quotes.png" alt="" loading="lazy"/>
-        <div class="slider_container">
-          <div class="slider_box">
+        <div class="container">
+          <img src="images/bg-quotes.png" alt="" loading="lazy" />
+        </div>
+        <div class="slider">
+          <div class="slider_container">
+            <div>
+              <p>
+                Fylo has improved our team productivity by an order of
+                magnitude. Since making the switch our team has become a
+                well-oiled collaboration machine.
+              </p>
+              <div class="slider_person">
+                <img src="images/profile-1.jpg" alt="" loading="lazy" />
+                <div>
+                  <span>Satish Patel</span>
+                  <span>Founder & CEO, Huddle</span>
+                </div>
+              </div>
+            </div>
+            <div>
+              <p>
+                Fylo has improved our team productivity by an order of
+                magnitude. Since making the switch our team has become a
+                well-oiled collaboration machine.
+              </p>
+              <div class="slider_person">
+                <img src="images/profile-2.jpg" alt="" loading="lazy" />
+                <div>
+                  <span>Bruce McKenzie</span>
+                  <span>Founder & CEO, Huddle</span>
+                </div>
+              </div>
+            </div>
+            <div>
+              <p>
+                Fylo has improved our team productivity by an order of
+                magnitude. Since making the switch our team has become a
+                well-oiled collaboration machine.
+              </p>
+              <div class="slider_person">
+                <img src="images/profile-3.jpg" alt="" loading="lazy" />
+                <div>
+                  <span>Iva Boyd</span>
+                  <span>Founder & CEO, Huddle</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slider_container">
+            <div>
+              <p>
+                Fylo has improved our team productivity by an order of
+                magnitude. Since making the switch our team has become a
+                well-oiled collaboration machine.
+              </p>
+              <div class="slider_person">
+                <img src="images/profile-1.jpg" alt="" loading="lazy" />
+                <div>
+                  <span>Satish Patel</span>
+                  <span>Founder & CEO, Huddle</span>
+                </div>
+              </div>
+            </div>
+            <div>
+              <p>
+                Fylo has improved our team productivity by an order of
+                magnitude. Since making the switch our team has become a
+                well-oiled collaboration machine.
+              </p>
+              <div class="slider_person">
+                <img src="images/profile-2.jpg" alt="" loading="lazy" />
+                <div>
+                  <span>Bruce McKenzie</span>
+                  <span>Founder & CEO, Huddle</span>
+                </div>
+              </div>
+            </div>
+            <div>
+              <p>
+                Fylo has improved our team productivity by an order of
+                magnitude. Since making the switch our team has become a
+                well-oiled collaboration machine.
+              </p>
+              <div class="slider_person">
+                <img src="images/profile-3.jpg" alt="" loading="lazy" />
+                <div>
+                  <span>Iva Boyd</span>
+                  <span>Founder & CEO, Huddle</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slider_container">
+            <div>
+              <p>
+                Fylo has improved our team productivity by an order of
+                magnitude. Since making the switch our team has become a
+                well-oiled collaboration machine.
+              </p>
+              <div class="slider_person">
+                <img src="images/profile-1.jpg" alt="" loading="lazy" />
+                <div>
+                  <span>Satish Patel</span>
+                  <span>Founder & CEO, Huddle</span>
+                </div>
+              </div>
+            </div>
+            <div>
+              <p>
+                Fylo has improved our team productivity by an order of
+                magnitude. Since making the switch our team has become a
+                well-oiled collaboration machine.
+              </p>
+              <div class="slider_person">
+                <img src="images/profile-2.jpg" alt="" loading="lazy" />
+                <div>
+                  <span>Bruce McKenzie</span>
+                  <span>Founder & CEO, Huddle</span>
+                </div>
+              </div>
+            </div>
+            <div>
+              <p>
+                Fylo has improved our team productivity by an order of
+                magnitude. Since making the switch our team has become a
+                well-oiled collaboration machine.
+              </p>
+              <div class="slider_person">
+                <img src="images/profile-3.jpg" alt="" loading="lazy" />
+                <div>
+                  <span>Iva Boyd</span>
+                  <span>Founder & CEO, Huddle</span>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -92,30 +281,41 @@
     <section class="subscribe_section">
       <div class="subscribe_box container_main">
         <h2>Get early access today</h2>
-        <p>It only takes a minute to sign up and our free starter tier is extremely generous. If you have any 
-          questions, our support team would be happy to help you.</p>
+        <p>
+          It only takes a minute to sign up and our free starter tier is
+          extremely generous. If you have any questions, our support team would
+          be happy to help you.
+        </p>
         <div>
-          <input value="example@fylo.com">
-          <button class="blue_button" type="button">Get Started For Free</button>
+          <input value="example@fylo.com" />
+          <button class="blue_button" type="button">
+            Get Started For Free
+          </button>
         </div>
       </div>
     </section>
     <footer>
       <div>
-        <img src="images/logo.svg" alt="" loading="lazy"/>
+        <img src="images/logo.svg" alt="" loading="lazy" />
         <div class="footer_grid">
           <div>
-            <img src="images/icon-location.svg" alt="location" loading="lazy"/>
-            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
-              dolore magna aliqua</span>
+            <img src="images/icon-location.svg" alt="location" loading="lazy" />
+            <span
+              >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua</span
+            >
           </div>
           <div class="footer_contact">
             <div>
-              <img src="images/icon-phone.svg" alt="phone number" loading="lazy"/>
+              <img
+                src="images/icon-phone.svg"
+                alt="phone number"
+                loading="lazy"
+              />
               <span>+1-543-123-4567</span>
             </div>
             <div>
-              <img src="images/icon-email.svg" alt="email" loading="lazy"/>
+              <img src="images/icon-email.svg" alt="email" loading="lazy" />
               <span>example@fylo.com</span>
             </div>
           </div>
@@ -125,7 +325,7 @@
               <li><a href="#"></a>Jobs</li>
               <li><a href="#"></a>Press</li>
               <li><a href="#"></a>Blog</li>
-              
+            </ul>
           </div>
           <div>
             <ul>
@@ -133,6 +333,7 @@
               <li><a href="#"></a>Terms</li>
               <li><a href="#"></a>Privacy</li>
             </ul>
+          </div>
         </div>
       </div>
     </footer>
