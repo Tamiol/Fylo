@@ -1,34 +1,11 @@
-import { stickyHeader } from './counter'
+import { stickyHeader } from './header';
 
-window.addEventListener("scroll", () => stickyHeader())
+window.addEventListener('scroll', () => stickyHeader());
 
-// const colors = {
-//     Red : "Red",
-//     Green : "Green",
-//     Blue : "Blue"
-// } as const
+const hamburger = document.querySelector('.hamburger');
+const mobile_menu = document.querySelector('.mobile_nav');
 
-// type codTyp = keyof typeof colors
-
-// function setColor(parametr : codTyp) {
-//     document.querySelector<HTMLDivElement>("#box")?.style.backgroundColor = "red";
-// }
-
-// document.getElementById("buttonRed")?.addEventListener("click", () => {setColor(colors.Red)})
-// document.getElementById("buttonGreen")?.addEventListener("click", () => {setColor(colors.Green)})
-// document.getElementById("buttonBlue")?.addEventListener("click", () => {setColor(colors.Blue)})
-
-// function setText() {
-//     let mes = document.querySelector<HTMLInputElement>("#message");
-
-//     if (mes !== null){
-//         // message = mes.textContent ? mes.textContent : "";
-//         // message = mes.textContent || "";
-//         message = mes.value ?? "";
-//     }
-
-//     let cos = document.getElementById("text");
-//     if (cos !== null){
-//         cos.innerHTML = message;
-//     }
-// }
+hamburger?.addEventListener('click', function () {
+  hamburger?.classList.toggle('is_active');
+  mobile_menu?.classList.toggle('is_active');
+});
