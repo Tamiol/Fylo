@@ -21,6 +21,7 @@
   -webkit-text-size-adjust: 100%;
 
   min-width: 320px;
+  scroll-behavior: smooth;
 }
 
 @keyframes slide {
@@ -665,6 +666,14 @@ g {
     height: 120px;
     width: 300px;
     padding: 30px 20px;
+  }
+
+  header > div {
+    padding: 2rem 10%;
+  }
+
+  header img {
+    width: 130px;
   }
 }
 
